@@ -2,3 +2,8 @@ theme: minima
 title: 8veFable
 author: 8veFable
 description: Website with some shenanigans
+github_username: 8veStory
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

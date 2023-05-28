@@ -1,6 +1,6 @@
 ---
-title: Welcome to my blog
+title: Home
+layout: home
 ---
-
-# What Up Nerds
-
+## why hello there
+welcome to my website 👀

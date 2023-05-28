@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-28T21:22:58+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">8veFable</title><subtitle>Website with some shenanigans</subtitle><author><name>8veFable</name></author><entry><title type="html">Ad Astra</title><link href="http://localhost:4000/2023/05/28/Ad-Astra.html" rel="alternate" type="text/html" title="Ad Astra" /><published>2023-05-28T00:00:00+10:00</published><updated>2023-05-28T00:00:00+10:00</updated><id>http://localhost:4000/2023/05/28/Ad-Astra</id><content type="html" xml:base="http://localhost:4000/2023/05/28/Ad-Astra.html">&lt;h1 id=&quot;why-hello-there&quot;&gt;Why Hello There&lt;/h1&gt;
+&lt;p&gt;My aim with this blog is to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Share uni course notes&lt;/li&gt;
+  &lt;li&gt;Share my Blender progress, documenting my growth from novice to a (hopefully) good 3D modeller.&lt;/li&gt;
+  &lt;li&gt;Share my Engineering journey, documenting any learnings I come across as I grow from a junior to a (hopefully) good engineer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ad astra,&lt;/p&gt;
+
+&lt;p&gt;8veFable&lt;/p&gt;</content><author><name>8veFable</name></author><summary type="html">Why Hello There My aim with this blog is to: Share uni course notes Share my Blender progress, documenting my growth from novice to a (hopefully) good 3D modeller. Share my Engineering journey, documenting any learnings I come across as I grow from a junior to a (hopefully) good engineer. ad astra, 8veFable</summary></entry></feed>
