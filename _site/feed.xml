@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-28T21:22:58+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">8veFable</title><subtitle>Website with some shenanigans</subtitle><author><name>8veFable</name></author><entry><title type="html">Ad Astra</title><link href="http://localhost:4000/2023/05/28/Ad-Astra.html" rel="alternate" type="text/html" title="Ad Astra" /><published>2023-05-28T00:00:00+10:00</published><updated>2023-05-28T00:00:00+10:00</updated><id>http://localhost:4000/2023/05/28/Ad-Astra</id><content type="html" xml:base="http://localhost:4000/2023/05/28/Ad-Astra.html">&lt;h1 id=&quot;why-hello-there&quot;&gt;Why Hello There&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-01T00:52:09+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">8veFable</title><subtitle>Website with some shenanigans</subtitle><author><name>8veFable</name></author><entry><title type="html">2023-06-01</title><link href="http://localhost:4000/engineer/2023/06/01/bruh.html" rel="alternate" type="text/html" title="2023-06-01" /><published>2023-06-01T00:00:00+10:00</published><updated>2023-06-01T00:00:00+10:00</updated><id>http://localhost:4000/engineer/2023/06/01/bruh</id><content type="html" xml:base="http://localhost:4000/engineer/2023/06/01/bruh.html">&lt;p&gt;Created rough idea for a cross-OS desktop virtual assistant using ChatGPT.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI Desktop Assistant: similar to the Tasker one. It can:
+    &lt;ul&gt;
+      &lt;li&gt;Talk to it via Text to Speech voice input w/ Whisper API&lt;/li&gt;
+      &lt;li&gt;Generates response using ChatGPT 3.5 Turbo API&lt;/li&gt;
+      &lt;li&gt;Responds back using:
+        &lt;ul&gt;
+          &lt;li&gt;(default) free Speech Synthesis&lt;/li&gt;
+          &lt;li&gt;(optional) Microsoft Neural Voices&lt;/li&gt;
+          &lt;li&gt;(optional) Eleven Labs&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Can view chat history and current chat logs&lt;/li&gt;
+      &lt;li&gt;API has a ‘Memory’ of prior conversations (we send the last 10 conversations)
+        &lt;ul&gt;
+          &lt;li&gt;Extension: We send up to 4,096 tokens, removing the rest&lt;/li&gt;
+          &lt;li&gt;Extension: We use &lt;a href=&quot;https://pythonwarriors.com/how-to-build-your-chatbot-using-custom-knowledge-base-with-llamaindex-openai-and-streamlit/&quot;&gt;LlammaLLM&lt;/a&gt; to have long-term memory of the entire conversation!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Can Adjust the ‘Assistant Personality’ (System Prompt)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Can have plugins, like Google Calendar and Gmail Integration.&lt;/p&gt;</content><author><name>8veFable</name></author><category term="engineer" /><category term="Programming" /><summary type="html">Created rough idea for a cross-OS desktop virtual assistant using ChatGPT.</summary></entry><entry><title type="html">Ad Astra</title><link href="http://localhost:4000/blog/2023/05/29/Bruh-copy.html" rel="alternate" type="text/html" title="Ad Astra" /><published>2023-05-29T00:00:00+10:00</published><updated>2023-05-29T00:00:00+10:00</updated><id>http://localhost:4000/blog/2023/05/29/Bruh%20copy</id><content type="html" xml:base="http://localhost:4000/blog/2023/05/29/Bruh-copy.html">&lt;h1 id=&quot;why-hello-there&quot;&gt;Why Hello There&lt;/h1&gt;
+&lt;p&gt;henlo&lt;/p&gt;</content><author><name>8veFable</name></author><category term="blog" /><category term="test123" /><summary type="html">Why Hello There henlo</summary></entry><entry><title type="html">Ad Astra</title><link href="http://localhost:4000/blog/2023/05/28/Ad-Astra.html" rel="alternate" type="text/html" title="Ad Astra" /><published>2023-05-28T00:00:00+10:00</published><updated>2023-05-28T00:00:00+10:00</updated><id>http://localhost:4000/blog/2023/05/28/Ad-Astra</id><content type="html" xml:base="http://localhost:4000/blog/2023/05/28/Ad-Astra.html">&lt;h1 id=&quot;why-hello-there&quot;&gt;Why Hello There&lt;/h1&gt;
 &lt;p&gt;My aim with this blog is to:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Share uni course notes&lt;/li&gt;
@@ -8,4 +35,5 @@
 
 &lt;p&gt;ad astra,&lt;/p&gt;
 
-&lt;p&gt;8veFable&lt;/p&gt;</content><author><name>8veFable</name></author><summary type="html">Why Hello There My aim with this blog is to: Share uni course notes Share my Blender progress, documenting my growth from novice to a (hopefully) good 3D modeller. Share my Engineering journey, documenting any learnings I come across as I grow from a junior to a (hopefully) good engineer. ad astra, 8veFable</summary></entry></feed>
+&lt;p&gt;8veFable&lt;/p&gt;</content><author><name>8veFable</name></author><category term="blog" /><category term="test123" /><summary type="html">Why Hello There My aim with this blog is to: Share uni course notes Share my Blender progress, documenting my growth from novice to a (hopefully) good 3D modeller. Share my Engineering journey, documenting any learnings I come across as I grow from a junior to a (hopefully) good engineer. ad astra, 8veFable</summary></entry><entry><title type="html">Ad Astra</title><link href="http://localhost:4000/blog/2023/05/27/Bruh-2.html" rel="alternate" type="text/html" title="Ad Astra" /><published>2023-05-27T00:00:00+10:00</published><updated>2023-05-27T00:00:00+10:00</updated><id>http://localhost:4000/blog/2023/05/27/Bruh-2</id><content type="html" xml:base="http://localhost:4000/blog/2023/05/27/Bruh-2.html">&lt;h1 id=&quot;why-hello-there&quot;&gt;Why Hello There&lt;/h1&gt;
+&lt;p&gt;henlo 2&lt;/p&gt;</content><author><name>8veFable</name></author><category term="blog" /><category term="test123" /><summary type="html">Why Hello There henlo 2</summary></entry><entry><title type="html">Henlo</title><link href="http://localhost:4000/blender/2023/05/25/Henlo.html" rel="alternate" type="text/html" title="Henlo" /><published>2023-05-25T00:00:00+10:00</published><updated>2023-05-25T00:00:00+10:00</updated><id>http://localhost:4000/blender/2023/05/25/Henlo</id><content type="html" xml:base="http://localhost:4000/blender/2023/05/25/Henlo.html">&lt;p&gt;HOI&lt;/p&gt;</content><author><name>8veFable</name></author><category term="blender" /><category term="test123" /><summary type="html">HOI</summary></entry></feed>

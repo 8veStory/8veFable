@@ -194,3 +194,13 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+.blog-posts { width: 100%; display: flex; flex-direction: column; align-items: center; }
+
+.blog-posts-list { width: 100%; }
+
+.blog-post-header-link { margin-bottom: 0; }
+
+.tags { margin-bottom: 0.1rem; }
+
+.tag { display: inline-block; margin-right: 0.5rem; padding: 0.25rem 0.5rem; border-radius: 0.5rem; background-color: #eee; color: #333; font-size: 0.85rem; text-decoration: none; }
