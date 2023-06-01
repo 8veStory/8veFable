@@ -199,7 +199,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .blog-posts-list { width: 100%; }
 
-.blog-post-header-link { margin-bottom: 0; }
+.blog-post-header-link { margin-bottom: 0; display: flex; }
+
+.blog-post-icon { display: inline-block; width: 1.5rem; margin-left: 5px; }
 
 .tags { margin-bottom: 0.1rem; }
 

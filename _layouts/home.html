@@ -14,11 +14,17 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
+
         <!-- Title -->
         <h3 class="blog-post-header-link">
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
+
+          <!-- Icon -->
+          {%- if post.category contains 'blender' -%}
+          <img class="blog-post-icon" src="{{ '/assets/blender.svg' | relative_url }}" alt="Blender Icon"/>
+          {%- endif -%}
         </h3>
 
         <!-- Tags -->

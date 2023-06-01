@@ -15,6 +15,13 @@
 
 .blog-post-header-link {
   margin-bottom: 0;
+  display: flex;
+}
+
+.blog-post-icon {
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: 5px;
 }
 
 .tags {
