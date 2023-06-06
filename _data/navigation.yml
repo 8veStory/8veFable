@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog
+- name: Blender
+  link: /blender
+- name: Engineer
+  link: /senior engineer
