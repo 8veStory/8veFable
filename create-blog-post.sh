@@ -31,7 +31,7 @@ filename="$(date +%Y-%m-%d)-$jekyllblogpostname.md"
 case $blogposttype in
     1) folder="_posts/blog/" ;;
     2) folder="_posts/blender/" ;;
-    3) folder="_posts/engineering/" ;;
+    3) folder="_posts/engineer/" ;;
     4) folder="_posts/gamedev/" ;;
 esac
 

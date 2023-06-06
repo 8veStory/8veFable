@@ -3,22 +3,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>2023-06-01 | 8veFable</title>
+<title>2023-06-06 | 8veFable</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="2023-06-01" />
+<meta property="og:title" content="2023-06-06" />
 <meta name="author" content="8veFable" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Created rough idea for a cross-OS desktop virtual assistant using ChatGPT." />
-<meta property="og:description" content="Created rough idea for a cross-OS desktop virtual assistant using ChatGPT." />
-<link rel="canonical" href="http://localhost:4000/engineer/2023/06/01/bruh.html" />
-<meta property="og:url" content="http://localhost:4000/engineer/2023/06/01/bruh.html" />
+<meta name="description" content="Obsidian support and shell script for faster blog creation Added shellscript create-blog-post.sh to help me create blog posts more quickly!" />
+<meta property="og:description" content="Obsidian support and shell script for faster blog creation Added shellscript create-blog-post.sh to help me create blog posts more quickly!" />
+<link rel="canonical" href="http://localhost:4000/engineer/2023/06/06/work-on-blog-post.html" />
+<meta property="og:url" content="http://localhost:4000/engineer/2023/06/06/work-on-blog-post.html" />
 <meta property="og:site_name" content="8veFable" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-06-01T00:00:00+10:00" />
+<meta property="article:published_time" content="2023-06-06T00:00:00+10:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="2023-06-01" />
+<meta property="twitter:title" content="2023-06-06" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"8veFable"},"dateModified":"2023-06-01T00:00:00+10:00","datePublished":"2023-06-01T00:00:00+10:00","description":"Created rough idea for a cross-OS desktop virtual assistant using ChatGPT.","headline":"2023-06-01","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/engineer/2023/06/01/bruh.html"},"url":"http://localhost:4000/engineer/2023/06/01/bruh.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"8veFable"},"dateModified":"2023-06-06T00:00:00+10:00","datePublished":"2023-06-06T00:00:00+10:00","description":"Obsidian support and shell script for faster blog creation Added shellscript create-blog-post.sh to help me create blog posts more quickly!","headline":"2023-06-06","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/engineer/2023/06/06/work-on-blog-post.html"},"url":"http://localhost:4000/engineer/2023/06/06/work-on-blog-post.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="8veFable" /></head>
 <body><header class="site-header" role="banner">
@@ -53,42 +53,24 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">2023-06-01</h1>
+    <h1 class="post-title p-name" itemprop="name headline">2023-06-06</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2023-06-01T00:00:00+10:00" itemprop="datePublished">Jun 1, 2023
+      <time class="dt-published" datetime="2023-06-06T00:00:00+10:00" itemprop="datePublished">Jun 6, 2023
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Created rough idea for a cross-OS desktop virtual assistant using ChatGPT.</p>
-
+    <h1 id="obsidian-support-and-shell-script-for-faster-blog-creation">Obsidian support and shell script for faster blog creation</h1>
 <ul>
-  <li>AI Desktop Assistant: similar to the Tasker one. It can:
-    <ul>
-      <li>Talk to it via Text to Speech voice input w/ Whisper API</li>
-      <li>Generates response using ChatGPT 3.5 Turbo API</li>
-      <li>Responds back using:
-        <ul>
-          <li>(default) free Speech Synthesis</li>
-          <li>(optional) Microsoft Neural Voices</li>
-          <li>(optional) Eleven Labs</li>
-        </ul>
-      </li>
-      <li>Can view chat history and current chat logs</li>
-      <li>API has a ‘Memory’ of prior conversations (we send the last 10 conversations)
-        <ul>
-          <li>Extension: We send up to 4,096 tokens, removing the rest</li>
-          <li>Extension: We use <a href="https://pythonwarriors.com/how-to-build-your-chatbot-using-custom-knowledge-base-with-llamaindex-openai-and-streamlit/">LlammaLLM</a> to have long-term memory of the entire conversation!</li>
-        </ul>
-      </li>
-      <li>Can Adjust the ‘Assistant Personality’ (System Prompt)</li>
-    </ul>
-  </li>
+  <li>Added shellscript <code class="language-plaintext highlighter-rouge">create-blog-post.sh</code> to help me create blog posts more quickly!</li>
 </ul>
 
-<p>Can have plugins, like Google Calendar and Gmail Integration.</p>
+<h2 id="key-learnings">Key Learnings</h2>
+<ul>
+  <li>If you don’t enjoy coding, you’re probably not doing it for fun. That is, you’re probably using it for work or study; it’s very easy to burn out this way. Love coding by coding what you love. Make it a <em>hobby</em>; game dev, recreating websites, making cool websites, making AI, doing machine learning, making whacky stuff, home automation etc. llearnt from: <a href="https://www.youtube.com/watch?v=UAZflJ02JJo">Your Approach to Programming is Wrong</a></li>
+</ul>
 
-  </div><a class="u-url" href="/engineer/2023/06/01/bruh.html" hidden></a>
+  </div><a class="u-url" href="/engineer/2023/06/06/work-on-blog-post.html" hidden></a>
 </article>
 
         
