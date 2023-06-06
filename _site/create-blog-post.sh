@@ -20,6 +20,9 @@ read -p "Blog post name: " blogpostname
 
 # Convert blogpostname to lowercase and replace spaces with hyphens
 jekyllblogpostname=$(echo "$blogpostname" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+blogpostsummary=$(echo $blogpostname)
+# Convert blogpostname to title case (capitalize the first letter of each word)
+blogpostname=$(echo "$blogpostname" | sed -e "s/\b\(.\)/\u\1/g")
 
 # Print blog post name user gave
 echo "Creating blog post with name: $jekyllblogpostname"
@@ -55,3 +58,6 @@ sed -i "s/{{date:YYYY-MM-DD}}/$(date +%Y-%m-%d)/g" "${folder}${filename}"
 # Replace {{title}} with blog post name
 # Use a delimiter other than / for the sed command because $blogpostname may contain / characters
 sed -i "s|{{title}}|$blogpostname|g" "${folder}${filename}"
+
+# Replace {{summary}} with blog post summary
+sed -i "s|{{summary}}|$blogpostsummary|g" "${folder}${filename}"

@@ -1,6 +1,6 @@
 ---
 title: "{{date:YYYY-MM-DD}}"
-summary: "{{title}}"
+summary: "{{summary}}"
 date: {{date:YYYY-MM-DD}}
 category: engineer
 tags:
