@@ -199,10 +199,20 @@ table td { border: 1px solid #e8e8e8; }
 
 .blog-posts-list { width: 100%; }
 
-.blog-post-header-link { margin-bottom: 0; display: flex; }
+.blog-post-date { display: block; }
+
+.blog-post-header-link { margin-bottom: 0; display: inline-flex; }
 
 .blog-post-icon { display: inline-block; width: 1.5rem; margin-left: 5px; }
 
-.tags { margin-bottom: 0.1rem; }
+.mini-blog-post-header-link { display: inline-block; margin-bottom: 0.1rem; }
 
-.tag { display: inline-block; margin-right: 0.5rem; padding: 0.25rem 0.5rem; border-radius: 0.5rem; background-color: #eee; color: #333; font-size: 0.85rem; text-decoration: none; }
+.mini-blog-post-link { font-size: 1rem; display: inline-block; }
+
+.mini-tags { display: inline-block; }
+
+.mini-blog-post-icon { display: inline-block; width: 1rem; margin-left: 5px; }
+
+.tags { display: inline-block; margin-bottom: 0.1rem; }
+
+.tag { display: inline-block; margin-right: 0.5rem; padding: 0.1rem 0.5rem; border-radius: 0.5rem; background-color: #eee; color: #333; font-size: 0.85rem; text-decoration: none; }
