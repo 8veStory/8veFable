@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/1 Blog Template.md",
+                "file": "_posts/engineer/2023-06-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,16 +23,13 @@
             "id": "b41a2898d3148612",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "engineer/2023-06-01-bruh.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/blender.svg"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineer/2023-06-01-bruh.md",
+                "file": "_posts/engineer/2023-06-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineer/2023-06-01-bruh.md",
+                "file": "_posts/engineer/2023-06-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineer/2023-06-01-bruh.md"
+                "file": "_posts/engineer/2023-06-03.md"
               }
             }
           }
@@ -159,17 +156,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b41a2898d3148612",
+  "active": "a8fc484c6df58aa8",
   "lastOpenFiles": [
+    "assets/blender.svg",
+    "_posts/engineer/2023-06-03.md",
+    "_posts/engineer/2023-06-01-bruh.md",
+    "_posts/blender/2023-05-25-Henlo.md",
+    "_site/assets/images/dog.png",
+    "_site/assets/images",
+    "assets/images",
+    "_site/assets/dog.png",
+    "blender/2023-05-25-Henlo.md",
+    "2023-06-03.md",
+    "blender/dog.png",
     "blog/2023-05-29-Bruh copy.md",
     "templates/1 Blog Template.md",
+    "Pasted image 20230603214821.png",
+    "engineer/2023-06-01-bruh.md",
     "templates/3 Engineer Template.md",
     "templates/2 Blender Template.md",
-    "engineer/2023-06-01-bruh.md",
     "engineer/2023-06-01.md",
     "engineer/2023-06-01-Desktop-App-Idea.md",
     "blog/2023-05-27-Bruh-2.md",
-    "blender/2023-05-25-Henlo.md",
     "templates"
   ]
 }

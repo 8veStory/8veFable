@@ -24,6 +24,10 @@ layout: default
           <!-- Icon -->
           {%- if post.category contains 'blender' -%}
           <img class="blog-post-icon" src="{{ '/assets/blender.svg' | relative_url }}" alt="Blender Icon"/>
+          {%- elsif post.category contains 'engineer' -%}
+          <img class="blog-post-icon" src="{{ '/assets/code.svg' | relative_url }}" alt="Code Icon"/>
+          {%- elsif post.category contains 'game dev' -%}
+          <img class="blog-post-icon" src="{{ '/assets/code.svg' | relative_url }}" alt="Code Icon"/>
           {%- endif -%}
         </h3>
 
